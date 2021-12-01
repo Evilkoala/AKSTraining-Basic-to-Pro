@@ -99,8 +99,8 @@ az ad sp create-for-rbac --skip-assignment -n https://aks-train-sp
 }
 
 #Set Service Principal variables
-spAppId=""
-spPassword=""
+spAppId="181d1481-41c9-461e-989d-a00286a2e427"
+spPassword="33D7Q~qkG_S7jMcy.fFhuunZW2c-0Z3KRxfBn"
 
 #Create Master Resource Group for Hub workloads
 az group create -n $masterResourceGroup -l $location
